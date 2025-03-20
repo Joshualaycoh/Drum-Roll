@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #282828;
+}
+
+.drumKit{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+
+.drum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.33% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tom{
+    height: 200px;
+    width: 200px;
+}
+
+.a{
+    background-image: url(./images/closed-hihat.png), radial-gradient(#FDBF60,#FF8911);
+    
+}
+
+.w{
+    background-image: url(./images/snare.png), radial-gradient(#FDBF60,#FF8911);
+ 
+}
+
+.d{
+    background-image: url(./images/crash.png), radial-gradient(#FDBF60,#FF8911);
+   
+}
+
+.j{
+    background-image: url(./images/tom.png), radial-gradient(#FDBF60,#FF8911);
+}
+
+.k{
+    background-image: url(./images/kick.png), radial-gradient(#FDBF60,#FF8911);
+  
+}
+
+.l{
+    background-image: url(./images/tom.png), radial-gradient(#FDBF60,#FF8911);
+ 
+}
+
+.pressed{
+    opacity: 80%;
+    border: 0 3 4 0,black;
+}
